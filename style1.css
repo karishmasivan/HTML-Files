@@ -1,0 +1,40 @@
+table, th, td
+ {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table tr
+{
+	text-align: center;
+}
+td#java
+{
+	background-color:#A3E4D7  ;
+}
+td#ds
+{
+	background-color:#F9E79F  ;
+}
+td#cbot
+{
+	background-color:#85C1E9   ;
+}
+td#wp
+{
+	background-color:#D7BDE2 ;
+}
+td#fc
+{
+	background-color:#BA4A00
+}
+th, td {
+  padding: 10px;
+}
+th#day
+{
+	background-color:#CCD1D1 
+}
+h1#text
+{
+	text-align:center;
+    background-color:#99A3A4;

@@ -1,0 +1,57 @@
+div#div1
+{
+	background-color:green;
+}
+div#div2
+{
+	background-color:orange;
+}
+div#div3
+{
+	background-color:#0843A8;
+	color:#bacdae;
+}
+table, th, td
+ {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table tr
+{
+	text-align: center;
+}
+td#java
+{
+	background-color:#DC7633 ;
+}
+td#ds
+{
+	background-color:#EB984E ;
+}
+td#cbot
+{
+	background-color:#F5B041  ;
+}
+td#wp
+{
+	background-color:#F4D03F;
+}
+td#fc
+{
+	background-color:#BA4A00
+}
+th, td {
+  padding: 10px;
+}
+h1#text
+{
+	text-align:center;
+    background-color:#B03A2E ;
+}
+th#period
+{
+	background-color:#FAE5D3 ;  
+}
+body {
+  background-color: #FADBD8;
+}
