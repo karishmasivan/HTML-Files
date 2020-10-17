@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resgister Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h1 id="heading"><strong>Registeration Form</strong></h1>
+	<form action="/action_page.php" name="registeration form" method="get">
+		<table border="2" style="border-collapse:collapse;">
+			<tr>
+				<th>Enter your first name:</th>
+				<th><input type="text" name="fname" placeholder="max 50 letters"></th>
+			</tr>
+			<tr>
+				<th>Enter your last name:</th>
+				<th><input type="text" name="lname" placeholder="max 50 letters"></th>
+			</tr>
+			<tr>
+				<th>Email id:</th>
+				<th><input type="text" name="lname"></th>
+			</tr>
+			<tr>
+				<th>Mobile Number:</th>
+				<th><input type="text" name="ph.no" placeholder="max 10 digits"></th>
+			</tr>
+			<tr>
+				<th>Gender:</th>
+ <th><input type="radio" id="male" name="gender" value="male"> 
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label></th>
+</tr>
+<tr>
+	<th>DOB</th>
+
+	<th><label for="birthday"></label>
+  <input type="date" id="birthday" name="birthday"></th>
+</tr>
+<tr>
+	<th>Address</th>
+	<th><textarea name="comment" form="usrform">Enter text here...</textarea></th>
+</tr>
+<tr>
+	<th>City</th>
+	<th><input type="text" name="city" placeholder="max 50 letters"></th>
+</tr>
+<tr>
+	<th>Pincode</th>
+	<th><input type="text" name="pincode" placeholder="max 6 digits"></th>
+</tr>
+<tr>
+	<th>State</th>
+	<th><input type="text" name="state" placeholder="max 50 letters"></th>
+</tr>
+<tr>
+	<th>Country</th>
+	<th><input type="text" name="country" </th>
+</tr>
+<tr>
+	<th>Hobbies</th>
+	 <th><input type="checkbox" id="hobbies" name="hobbies" value="drawing">
+  <label for="hobbies"> Drawing</label>
+  <input type="checkbox" id="hobbies" name="hobbies" value="singing">
+  <label for="hobbies"> Singing</label>
+  <input type="checkbox" id="hobbies" name="hobbies" value="dancing">
+  <label for="hobbies"> Dancing</label><br>
+   <label for="hobbies"> Others</label>
+  <input type="text" id="hobbies" name="others" placeholder="ex:Gardening">
+ 
+</th>
+</tr>
+<tr>
+	<th>Qualification</th>
+	<th><select >
+		<option>High school "10th"</option>
+		<option>High school "12th"</option>
+		<option>bachelor degree</option>
+		<option>Post graduate</option>
+		<option>phd</option>
+		
+	</select>
+
+</th>
+</tr>
+<tr>
+	<th>Course applied</th>
+	<th>
+<input type="checkbox" id="bca" name="course" value="bca">
+ <label for="course applied">BCA</label><br>
+  <input type="checkbox" id="bba" name="course" value="bba">
+  <label for="course applied">BBA</label><br>
+  <input type="checkbox" id="bcom" name="course" value="bcom">
+  <label for="course applied">B-com</label><br>
+  <input type="checkbox" id="bcom it" name="course" value="bcom it">
+  <label for="course applied">B-com IT</label><br>
+  <input type="checkbox" id="bsc computer science" name="course" value="bsc computer science">
+  <label for="course applied">bsc Computer Science</label>
+	</th>
+</tr>
+<tr>
+<th><input type="submit" value="Submit"></th>
+<th><input type="reset"></th>
+</tr>
+</th>
+
+</body>
+</html>
